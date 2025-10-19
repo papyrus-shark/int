@@ -1,0 +1,73 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+#container{
+	width:1000px;
+	height:1225px;
+	margin:0px auto;
+	background-color:#ffffff;
+    border-left:5px solid #000000;
+    border-right: 5px solid #000000;
+    }
+ header{
+ 	height:215px;
+ 	background-image:url("tuki.jpg");
+ }
+ #header-title{
+ 	padding-top:135px;
+ 	padding-left:15px;
+ 	color:#ffffff;
+ 	font:bold 44px sans-serif;
+ }
+ nav ul{
+ 	list-style-type:none;
+ 	display:flex;
+ 	background-image:url(nav.png);
+ }
+ nav a{
+ 	display:block;
+ 	width:140px;
+ 	padding:10px 0px;
+ 	text-align:center;
+ 	text-decoration:none;
+ 	color:#ffffff;
+ 	font:bold 14px/20px sans-serif;
+ }
+ nav a:hover{
+    background-color:#ff3300
+ }
+ span{
+ 	color:#ff0000;
+ }
+ #あほ{color:#ffffff;}
+
+ #footer{
+ 	background-color:#000000;
+ 	padding:10px;
+ 	font:5px;
+ 	text-align:right;
+ 	color:#ffffff;
+ 	height:49px;
+ }
+ img{
+ 	width:700px;
+ 	height:500px;
+ }
+ #kasu{
+ 	text-align:right;
+ }
+
+ #info{
+ 	width:300px;
+ 	background-color:#006633;
+ 	border-radius:5px;
+ 	border-left:solid 15px #000000;
+ 	padding: 6px 10px 4px;
+ 	margin-bottom: 20px;
+ 	margin-left:10px;
+ 	box-shadow: 5px 5px 10px #999999;
+ 	font:bold 18px sans-serif;
+ 	color:#ffffff;
+ }
